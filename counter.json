@@ -1,0 +1,14 @@
+{signal: [
+  {name: 'clk', wave: 'p..............'},
+  
+  {name: 'reset_L', wave: 'x1.0...........'},  
+  {},
+  {name: 'en', wave: 'x0....1........'},    
+  {name: 'inc',wave: 'x2.3..4..5.3...', data: ['0', '1', '2','3','1']},  
+  {name: 'clear', wave: 'x0..........10.'},     
+  
+  {},
+  {name: 'value', wave: 'x2.....44455333', data: '0 2 4 6 9 12 13 1 2' },  
+  {name: 'non_zero_value', wave: 'x0.....1.......'},    
+  {name: 'error_overflow', wave: 'x0.............'},  
+  ]}
